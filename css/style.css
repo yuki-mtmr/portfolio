@@ -1,6 +1,6 @@
 body {
   font-size: 14px;
-  color: #000;
+  color: #444;
   background-color: #fff;
   letter-spacing: 1px;
 }
@@ -60,8 +60,10 @@ body {
   letter-spacing: 7px;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
   color: #fff;
+  background-color: #000;
 }
 
 .section {
@@ -70,10 +72,6 @@ body {
 
 .aboutImage {
   max-width: 100%;
-}
-
-.skillsSection {
-  background-color: #000;
 }
 
 .skill {
@@ -140,11 +138,37 @@ body {
   font-size: 56px;
   margin-bottom: 10px;
   font-weight: 400;
-  color: #000;
+  color: #444;
 }
 
 .squareContent h3{
   font-size: 13px;
   font-weight: 600;
   margin: 0;
+}
+
+.squareIcon {
+  position: absolute;
+  left: 50%;
+  top: -30px;
+  width: 40%;
+  height: 60px;
+  font-size: 45px;
+  margin-left: -20%;
+  color: #444;
+}
+
+.contactButton {
+  color: #fff;
+  padding: 15px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.contactButton:hover {
+  text-decoration: none;
+  color: #000;
+  background-color: #fff;
 }
