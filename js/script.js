@@ -1,3 +1,18 @@
+$(window).on("load", function() {
+
+  $(".loader").fadeOut(500, function() {
+    $(".loader").fadeOut(750);
+  });
+  $(".items").isotope({
+    filter: '*',
+    animationOption: {
+      duration: 1500,
+      easing: 'linear',
+      queue: false
+    }
+  });
+})
+
 $(document).ready(function () {
   
   $('#slides').superslides({
