@@ -1,5 +1,5 @@
 (function($) {
- 
+
     $.fn.countup = function(params) {
  		// make sure dependency is present
         if (typeof CountUp !== 'function') {
@@ -22,7 +22,7 @@
         else {
         	console.error('countUp-jquery requires its argument to be either an object or number');
         	return;
-        } 
+        }
 
         this.each(function(i, elem) {
         	var countUp = new CountUp(elem, defaults.startVal, defaults.endVal, defaults.decimals, defaults.duration, defaults.options);
@@ -33,7 +33,7 @@
 
 
         return this;
- 
+
     };
- 
+
 }(jQuery));
